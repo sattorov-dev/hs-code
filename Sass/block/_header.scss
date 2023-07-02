@@ -1,0 +1,41 @@
+header{
+    .container{
+        padding: 46px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo{
+            &:hover{
+                cursor: pointer;
+            }
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            &__text{
+                font-size: 24px;
+                font-family: 'Ruda', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-right: 300px;
+            }
+        }
+        .menu{
+            color: #fff;
+        }
+        .menu2{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            color: #fff;
+            li:nth-child(2){
+                padding: 12px 24px;
+                border-radius: 4px;
+                background: linear-gradient(138deg, rgba(201, 34, 227, 0.40) 0%, rgba(153, 30, 234, 0.40) 52.29%, rgba(73, 23, 246, 0.40) 100%);
+            }
+        }
+    }
+}
